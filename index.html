@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Calculator</title>
+</head>
+<body>
+    <h1>My first calculating machine!</h1>
+    <h4>Enter your first number</h4>
+        <form action="" method="get"> 
+           <input type="number"step="any" placeholder="first number"id="n1"/>
+           <input type="reset" value="Reset" />
+        </form>
+          
+    <h4>Enter your second number</h4>
+
+        <form action="" method="get">
+           <input type="number" step="any" placeholder="second number"  id="n2"/>
+           <input type="reset" value="Reset" />
+        </form>
+        
+    <h4>Select math action</h4> 
+  
+        <button onclick="plus()"> + </button>
+        <button onclick="minus()"> - </button>
+        <button onclick="mult()"> * </button>
+        <button onclick="div()"> / </button>
+        <button onclick="perc()"> % </button>
+        <button onclick="pow()"> √ </button>
+        
+        <h4>Get the result</h4>
+        <p> 
+           <textarea id="out"disabled></textarea>
+        </p>
+   <script src="index.js"></script>
+</body>
+</html>
